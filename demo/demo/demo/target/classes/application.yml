@@ -1,0 +1,13 @@
+
+spring:
+  datasource:
+    name: jieyong
+    url: jdbc:mysql://117.78.28.2:3306/jieyong #url
+    username: dshore  #�û���
+    password: Dshore@123456  #����
+    driver-class-name: com.mysql.jdbc.Driver
+
+
+  mybatis:
+    mapper-locations: classpath:com.example.demo.mapper/*.xml  #配置映射文件
+    type-aliases-package: com.example.demo.bean #配置实体类
